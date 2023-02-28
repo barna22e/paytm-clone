@@ -1,0 +1,140 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background: rgb(237, 237, 237);
+}
+.navbar{
+    height: 90px;
+    width: 100%;
+background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow:0px 5px 10px #dfdfdf
+}
+.linkcont{
+    width: 700px;
+    height: 60px;
+    
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.linkcont a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.login{
+    padding-left: 15px;
+    height: 40px;
+    width: 120px;
+    background: rgb(72, 191, 255);
+    border-radius: 18px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    color: white;
+}
+.icon{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: rgb(1, 1, 85);
+    overflow: hidden;
+    padding-top:16px;
+}
+.icon i{
+    font-size: 30px;
+
+}
+.login:hover{
+    background: rgb(1, 1, 85);
+}
+.login:hover .icon{
+    background: rgb(72, 191, 255);
+}
+.kyc{
+    text-align: center;
+    font-weight: 400;
+}
+.kyc .emoji{
+    font-size: 25px;
+}
+.kyc .learn{
+    font-weight: 600;
+}
+
+.herosection{
+    margin-top: 6px;
+    height: 500px;
+    width: 100%;
+    background: white;
+    box-shadow:0px -3px 10px #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.herosection .left{
+    height: 80%;
+    width: 50%;
+ 
+    padding-left: 80px;
+}
+.herosection .right{
+    height: 80%;
+    width: 50%;
+
+}
+.herosection .left img{
+    height: 80px;
+}
+.herosection .left .heading{
+    font-size: 50px;
+}
+.para{
+    font-size: 20px;
+}
+
+.btn{
+    margin-top:50px ;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 40px;
+    width: 250px;
+    background: #000;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    transition: all .2s ease-in;
+}
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    border: 2px black solid;
+    background: white;
+    color: black;
+}
+.right img{
+    position: relative;
+    right: -100px;
+    height: 100%;
+    transition: all .2s ease-in-out;
+}
+.right img:hover{
+    transform: scale(1.1);
+    right: -0px;
+}
